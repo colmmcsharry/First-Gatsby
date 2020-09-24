@@ -1,15 +1,15 @@
 import React from "react"
-import Header from "../components/header"
-import { Link } from "gatsby"
-
+import Layout from "../components/layout"
 
 export default function About() {
   return (
-    <div style={{ color: `teal` }}>
-    <Link to="/contact/">Contact</Link>
-      <Header headerText="About Colm's Site" />
-      <Header headerText="It's pretty cool" />
-      <p>Such wow. Very React.</p>
+  	<Layout>
+    <div>
+      <h1>About me</h1>
+      <p>
+        I’m good enough, I’m smart enough, and gosh darn it, people like me!
+      </p>
     </div>
+    </Layout>
   )
 }
