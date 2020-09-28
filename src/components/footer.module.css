@@ -1,0 +1,7 @@
+.footerUl {
+	border-top:3px dashed pink;}
+
+.footerLi {font-family:Comic Sans MS;
+display:inline-block;
+margin: 1rem 2rem;
+opacity:0.4;}

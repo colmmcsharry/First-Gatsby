@@ -1,11 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
+import Footer from './footer.js'
 
+/*Listlink is just a styled list item that links to a certain location on your site*/
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
     <Link to={props.to}>{props.children}</Link>
   </li>
 )
+
+
+/*the layout component is using CSS-In-JS because I didn't bother creating a new site whilst following the tutorial. 
+the rest uses CSS modules*/
 
 export default function Layout({ children }) {
   return (
@@ -21,6 +27,9 @@ export default function Layout({ children }) {
         </ul>
       </header>
       {children}
+
+      <Footer />
+
     </div>
   )
 }

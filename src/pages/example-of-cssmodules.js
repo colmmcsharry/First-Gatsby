@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./about-css-modules.module.css"
+import styles from "./example-of-cssmodules.module.css"
 import Container from "../components/container.js"
 
 console.log(styles)

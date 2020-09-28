@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   margin: 0 auto 12px auto;
+  border:1px solid blue;
 }
 
 .user:last-child {
@@ -9,16 +10,18 @@
 }
 
 .avatar {
-  flex: 0 0 96px;
+  flex: 0 0 96px; /*so the avatar pics won't grow or shrink, and they start at width 96px*/
   width: 96px;
   height: 96px;
   margin: 0;
+  border:1px solid green;
 }
 
 .description {
-  flex: 1;
+  flex: 1; /*so the writing will grow or shrink a bit*/
   margin-left: 18px;
   padding: 12px;
+  border:1px solid red;
 }
 
 .username {
